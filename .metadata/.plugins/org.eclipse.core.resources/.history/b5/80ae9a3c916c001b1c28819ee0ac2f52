@@ -1,0 +1,5 @@
+package net.SachinCodes.springboot.repository;
+
+public interface EmployeeRepository extends JpaRepository {
+
+}

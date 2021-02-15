@@ -1,0 +1,10 @@
+package net.SachinCodes.springboot.model;
+
+public class Employee {
+	
+private String firstname;
+private long id;
+private String lastname;
+private String emailID;
+
+}

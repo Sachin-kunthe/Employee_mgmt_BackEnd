@@ -1,0 +1,5 @@
+package net.SachinCodes.springboot.exception;
+
+public class ResourceNotFoundException extends RuntimeException {
+
+}

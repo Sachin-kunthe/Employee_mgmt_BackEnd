@@ -1,0 +1,49 @@
+package net.SachinCodes.springboot.model;
+
+@Entity
+
+public class Employee {
+	
+private String firstname;
+private long id;
+private String lastname;
+private String emailID;
+
+
+public Employee() {
+	
+}
+
+
+public Employee(String firstname, String lastname, String emailID) {
+	super();
+	this.firstname = firstname;
+	this.lastname = lastname;
+	this.emailID = emailID;
+}
+public String getFirstname() {
+	return firstname;
+}
+public void setFirstname(String firstname) {
+	this.firstname = firstname;
+}
+public long getId() {
+	return id;
+}
+public void setId(long id) {
+	this.id = id;
+}
+public String getLastname() {
+	return lastname;
+}
+public void setLastname(String lastname) {
+	this.lastname = lastname;
+}
+public String getEmailID() {
+	return emailID;
+}
+public void setEmailID(String emailID) {
+	this.emailID = emailID;
+}
+
+}
